@@ -10,11 +10,11 @@ import UIKit
 
 public extension UINavigationController {
 	
-	open override var shouldAutorotate: Bool {
+	override open var shouldAutorotate: Bool {
 		return visibleViewController?.shouldAutorotate ?? true
 	}
 	
-	open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+	override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
 		return visibleViewController?.supportedInterfaceOrientations ?? .all
 	}
 	
