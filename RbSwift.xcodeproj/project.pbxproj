@@ -18,6 +18,7 @@
 		0E4FEE981EF49181003CE455 /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE971EF49181003CE455 /* SKProduct.swift */; };
 		0E4FEE9B1EF491DF003CE455 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE9A1EF491DF003CE455 /* AVPlayer.swift */; };
 		0E4FEE9E1EF49247003CE455 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE9D1EF49247003CE455 /* CALayer.swift */; };
+		0E4FEEA21EF4941E003CE455 /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEEA11EF4941E003CE455 /* CGContext.swift */; };
 		0EBAE4181EF4761400A3F49C /* JSONSerialization+Serialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAE4171EF4761400A3F49C /* JSONSerialization+Serialize.swift */; };
 		0EBAE41A1EF478E500A3F49C /* TimeInterval+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAE4191EF478E500A3F49C /* TimeInterval+Duration.swift */; };
 		0EBAE43B1EF47D5400A3F49C /* NumberFormatter+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAE43A1EF47D5400A3F49C /* NumberFormatter+Initializers.swift */; };
@@ -488,6 +489,7 @@
 		0E4FEE971EF49181003CE455 /* SKProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKProduct.swift; sourceTree = "<group>"; };
 		0E4FEE9A1EF491DF003CE455 /* AVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
 		0E4FEE9D1EF49247003CE455 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		0E4FEEA11EF4941E003CE455 /* CGContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContext.swift; sourceTree = "<group>"; };
 		0EBAE4171EF4761400A3F49C /* JSONSerialization+Serialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+Serialize.swift"; sourceTree = "<group>"; };
 		0EBAE4191EF478E500A3F49C /* TimeInterval+Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Duration.swift"; sourceTree = "<group>"; };
 		0EBAE43A1EF47D5400A3F49C /* NumberFormatter+Initializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Initializers.swift"; sourceTree = "<group>"; };
@@ -784,6 +786,14 @@
 			path = CALayer;
 			sourceTree = "<group>";
 		};
+		0E4FEEA01EF493F5003CE455 /* CGContext */ = {
+			isa = PBXGroup;
+			children = (
+				0E4FEEA11EF4941E003CE455 /* CGContext.swift */,
+			);
+			path = CGContext;
+			sourceTree = "<group>";
+		};
 		0EBAE4151EF4743200A3F49C /* TimeInterval */ = {
 			isa = PBXGroup;
 			children = (
@@ -1076,6 +1086,7 @@
 				0EBAE43E1EF47E0900A3F49C /* URLSession */,
 				0EBAE4441EF4807100A3F49C /* URLRequest */,
 				724874FA1E7CF813007984FD /* RbSwift.h */,
+				0E4FEEA01EF493F5003CE455 /* CGContext */,
 			);
 			path = RbSwift;
 			sourceTree = "<group>";
@@ -2015,6 +2026,7 @@
 				72D2EF841E96187A004CE666 /* Duration.swift in Sources */,
 				72D2EF8A1E961882004CE666 /* Number+Duration.swift in Sources */,
 				72D2EF751E96186F004CE666 /* Date+Time.swift in Sources */,
+				0E4FEEA21EF4941E003CE455 /* CGContext.swift in Sources */,
 				72D2EF7B1E961872004CE666 /* Array+Mutate.swift in Sources */,
 				72D2EF831E96187A004CE666 /* Duration+Relative.swift in Sources */,
 				72D2EFA21E961882004CE666 /* String+Remove.swift in Sources */,
