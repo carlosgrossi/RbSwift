@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EBAE4181EF4761400A3F49C /* JSONSerialization+Serialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAE4171EF4761400A3F49C /* JSONSerialization+Serialize.swift */; };
+		0EBAE41A1EF478E500A3F49C /* TimeInterval+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAE4191EF478E500A3F49C /* TimeInterval+Duration.swift */; };
 		212D25452440341B7ED185CE /* Pods_RbSwift_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD675F1AFD8692134211951 /* Pods_RbSwift_iOS.framework */; };
 		4FBC9036C31B34A74F1A58A8 /* Pods_RbSwiftTests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5E83A94585B48725284980 /* Pods_RbSwiftTests_macOS.framework */; };
 		60996B5075D4B1530985316D /* Pods_RbSwiftTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9FBC60D38554D73E840B2C /* Pods_RbSwiftTests_iOS.framework */; };
@@ -425,6 +427,8 @@
 
 /* Begin PBXFileReference section */
 		0251220F4AC3B1F1F2A16DB4 /* Pods-RbSwift iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RbSwift iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RbSwift iOS/Pods-RbSwift iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0EBAE4171EF4761400A3F49C /* JSONSerialization+Serialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+Serialize.swift"; sourceTree = "<group>"; };
+		0EBAE4191EF478E500A3F49C /* TimeInterval+Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Duration.swift"; sourceTree = "<group>"; };
 		12776B238AB1406E00843746 /* Pods-RbSwiftTests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RbSwiftTests iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RbSwiftTests iOS/Pods-RbSwiftTests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		1691E350F4092E3F61EA650E /* Pods-RbSwift iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RbSwift iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RbSwift iOS/Pods-RbSwift iOS.release.xcconfig"; sourceTree = "<group>"; };
 		1F5E83A94585B48725284980 /* Pods_RbSwiftTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RbSwiftTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,6 +632,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBAE4151EF4743200A3F49C /* TimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAE4191EF478E500A3F49C /* TimeInterval+Duration.swift */,
+			);
+			path = TimeInterval;
+			sourceTree = "<group>";
+		};
+		0EBAE4161EF475C400A3F49C /* JSONSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAE4171EF4761400A3F49C /* JSONSerialization+Serialize.swift */,
+			);
+			path = JSONSerialization;
+			sourceTree = "<group>";
+		};
 		28D74309F6A6B8E1E2C4BCA2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -820,6 +840,8 @@
 		724874F91E7CF813007984FD /* RbSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0EBAE4161EF475C400A3F49C /* JSONSerialization */,
+				0EBAE4151EF4743200A3F49C /* TimeInterval */,
 				72304A0C1E967D7200D5427E /* Array */,
 				7291CD101EA514CB0033BAEC /* Bridge */,
 				72304A0D1E967D7A00D5427E /* Date */,
@@ -1766,6 +1788,7 @@
 				72D2EF791E961872004CE666 /* Array+Conversions.swift in Sources */,
 				723049FF1E967C3500D5427E /* Hash+Bool.swift in Sources */,
 				72D2EF9F1E961882004CE666 /* String+Length.swift in Sources */,
+				0EBAE4181EF4761400A3F49C /* JSONSerialization+Serialize.swift in Sources */,
 				72F39AF91E9B74F30050D91B /* File.swift in Sources */,
 				7291CCF41EA22E010033BAEC /* Array+Grouping.swift in Sources */,
 				72D2EF8B1E961882004CE666 /* Number+Enumeration.swift in Sources */,
@@ -1780,6 +1803,7 @@
 				72D2EF941E961882004CE666 /* Sequence+Equatable.swift in Sources */,
 				72D2EF911E961882004CE666 /* Sequence+Bool.swift in Sources */,
 				72D2EF861E96187A004CE666 /* InflectorRule.swift in Sources */,
+				0EBAE41A1EF478E500A3F49C /* TimeInterval+Duration.swift in Sources */,
 				72D2EF711E96186F004CE666 /* Date+Components.swift in Sources */,
 				72D2EF7E1E96187A004CE666 /* Hash.swift in Sources */,
 				72D2EFA11E961882004CE666 /* String+Regex.swift in Sources */,
