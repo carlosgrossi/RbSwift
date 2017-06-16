@@ -4,6 +4,10 @@
    <FileRef
       location = "group:RbSwift.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>

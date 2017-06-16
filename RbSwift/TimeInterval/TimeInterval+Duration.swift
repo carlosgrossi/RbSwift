@@ -10,7 +10,7 @@ import Foundation
 
 extension TimeInterval {
 	
-	var duration: String {
+	public var duration: String {
 		get {
 			let seconds = Int(self) % 60
 			let minutes = (Int(self) / 60) % 60

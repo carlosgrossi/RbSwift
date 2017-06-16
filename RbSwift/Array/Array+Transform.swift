@@ -82,7 +82,7 @@ public extension Array {
             if bits.to_i(self.length) < largest - 1 {
                 bits = (bits.to_i(self.length) + 1).digits(self.length)
                 
-                // all the bits should in desc order to remove dupliate
+                // all the bits should in desc order to remove duplicate
                 while bits.sorted(by: >) != bits {
                     bits = (bits.to_i(self.length) + 1).digits(self.length)
                 }

@@ -10,12 +10,11 @@ import Foundation
 
 public extension JSONSerialization {
 	
-	static func serialize<T>(data: Data, readingOptions: JSONSerialization.ReadingOptions = .allowFragments) -> T? {
+	static func jsonObject<T>(with data:Data, options: JSONSerialization.ReadingOptions = .allowFragments) -> T? {
 		do {
-			return try JSONSerialization.jsonObject(with: data, options: readingOptions) as? T
+			return try JSONSerialization.jsonObject(with: data, options: options) as? T
 		} catch {
 			return nil
 		}
-		
 	}
 }
