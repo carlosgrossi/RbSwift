@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension URL {
+public extension URL {
 	
 	init?(string: String, args: [CVarArg]) {
 		guard let string = String(format: string, arguments: args).addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) else { return nil }

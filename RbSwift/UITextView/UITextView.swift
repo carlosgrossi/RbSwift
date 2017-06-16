@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UITextView {
+public extension UITextView {
 	
 	override open var contentSize: CGSize {
 		didSet {

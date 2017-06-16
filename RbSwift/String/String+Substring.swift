@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension String {
+public extension String {
 	
-	public func rangesOf(substring: String) -> [NSRange] {
+	func rangesOf(substring: String) -> [NSRange] {
 		let inputLength = self.characters.count
 		var rangesFound: [NSRange] = []
 		var range = NSRange(location: 0, length: inputLength)

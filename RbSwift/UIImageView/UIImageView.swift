@@ -10,7 +10,7 @@ import UIKit
 
 let imageCache = NSCache<AnyObject, AnyObject>()
 
-extension UIImageView {
+public extension UIImageView {
 	
 	/**
 	Change the image from a UIImageView with a Cross Fade effect

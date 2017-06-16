@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-extension UIImage {
+public extension UIImage {
 	
 	public convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {
 		let rect = CGRect(origin: .zero, size: size)

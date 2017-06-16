@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension URLSession {
+public extension URLSession {
 	
 	enum URLSessionError: Error {
 		case dataUnwrapError

@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NumberFormatter {
+public extension NumberFormatter {
 	
 	convenience init(numberStyle: NumberFormatter.Style, maximumFractionDigits: Int, minimumFractionDigits: Int) {
 		self.init()

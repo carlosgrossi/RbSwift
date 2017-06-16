@@ -8,7 +8,7 @@
 
 import CoreGraphics
 
-extension CGContext {
+public extension CGContext {
 	
 	public static func contextWith(cgImage: CGImage, size: CGSize, interpolationQuality: CGInterpolationQuality = .high) -> CGContext? {
 		let colorSpace: CGColorSpace = CGColorSpaceCreateDeviceRGB()

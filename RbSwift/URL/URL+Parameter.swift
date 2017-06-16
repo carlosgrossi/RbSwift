@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension URL {
+public extension URL {
 	
 	func queryParameter(named parameterName: String) -> String? {
 		guard let url = URLComponents(string: self.absoluteString) else { return nil }

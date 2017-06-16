@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UInt {
+public extension UInt {
 	
 	init?(exactly: UInt?) {
 		guard let exactly = exactly else { return nil }

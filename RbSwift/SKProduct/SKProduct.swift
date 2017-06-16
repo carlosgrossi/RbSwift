@@ -8,7 +8,7 @@
 
 import StoreKit
 
-extension SKProduct {
+public extension SKProduct {
 	
 	public func localizedPrice() -> String? {
 		let formatter = NumberFormatter()
