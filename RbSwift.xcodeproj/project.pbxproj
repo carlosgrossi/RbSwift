@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E38BCF51EF4A25A00DB7798 /* Date+PastDateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BCF41EF4A25A00DB7798 /* Date+PastDateFormat.swift */; };
 		0E4FEE801EF489D2003CE455 /* Array+Duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE7F1EF489D2003CE455 /* Array+Duplicates.swift */; };
 		0E4FEE831EF48ADF003CE455 /* UIColor+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE821EF48ADF003CE455 /* UIColor+Initializers.swift */; };
 		0E4FEE861EF48B94003CE455 /* UInt+Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FEE851EF48B94003CE455 /* UInt+Initializer.swift */; };
@@ -478,6 +479,7 @@
 
 /* Begin PBXFileReference section */
 		0251220F4AC3B1F1F2A16DB4 /* Pods-RbSwift iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RbSwift iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RbSwift iOS/Pods-RbSwift iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0E38BCF41EF4A25A00DB7798 /* Date+PastDateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+PastDateFormat.swift"; sourceTree = "<group>"; };
 		0E4FEE7F1EF489D2003CE455 /* Array+Duplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Duplicates.swift"; sourceTree = "<group>"; };
 		0E4FEE821EF48ADF003CE455 /* UIColor+Initializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Initializers.swift"; sourceTree = "<group>"; };
 		0E4FEE851EF48B94003CE455 /* UInt+Initializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+Initializer.swift"; sourceTree = "<group>"; };
@@ -927,6 +929,7 @@
 				729D3D541E7E5F7100258333 /* Date+Time.swift */,
 				72541B0A1E7D6771008B49B1 /* Date+TimeZone.swift */,
 				72541B031E7D5D90008B49B1 /* DateFormat.swift */,
+				0E38BCF41EF4A25A00DB7798 /* Date+PastDateFormat.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -2030,6 +2033,7 @@
 				72D2EF7B1E961872004CE666 /* Array+Mutate.swift in Sources */,
 				72D2EF831E96187A004CE666 /* Duration+Relative.swift in Sources */,
 				72D2EFA21E961882004CE666 /* String+Remove.swift in Sources */,
+				0E38BCF51EF4A25A00DB7798 /* Date+PastDateFormat.swift in Sources */,
 				0EBAE4711EF486C500A3F49C /* String+Accessors.swift in Sources */,
 				0EBAE4761EF4873700A3F49C /* String+Substring.swift in Sources */,
 				72D2EF951E961882004CE666 /* Sequence+Length.swift in Sources */,
